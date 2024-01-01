@@ -1,8 +1,9 @@
 import random
-lst =[1, 1, 2, 1]
-#lst =[6, 3, 7]
-#lst = [1, 2, 3, 4, 5, 6, 7, 9]
-if len(lst) >= 3:
-    result = [lst[0], lst[2], lst[-2]]
+my_list = []
+for i in range(random.randint(6, 15)):
+    my_list.append(random.randint(1, 1000))
+print(my_list)
+if len(my_list) >= 3:
+    result = [my_list[0], my_list[2], my_list[-2]]
     print(result)
 
